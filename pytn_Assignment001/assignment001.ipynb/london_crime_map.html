@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59931884b54ecd92e2386cb91a00a46b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59931884b54ecd92e2386cb91a00a46b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59931884b54ecd92e2386cb91a00a46b = L.map(
+                "map_59931884b54ecd92e2386cb91a00a46b",
+                {
+                    center: [51.509865, -0.118092],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d6e09e639bb99176a8ebe5f435a5bcc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4d6e09e639bb99176a8ebe5f435a5bcc.addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+            var circle_marker_66c9baff609ece1ecf33ffcd59bd2d2d = L.circleMarker(
+                [51.5363, 0.0795],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.568694673734363, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_335ba778d5b63b4a1c25fed663d1f6de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d00ecade88b4ab673527ec2c675abaf4 = $(`<div id="html_d00ecade88b4ab673527ec2c675abaf4" style="width: 100.0%; height: 100.0%;">Barking and Dagenham: 149,447.0 incidents</div>`)[0];
+                popup_335ba778d5b63b4a1c25fed663d1f6de.setContent(html_d00ecade88b4ab673527ec2c675abaf4);
+            
+        
+
+        circle_marker_66c9baff609ece1ecf33ffcd59bd2d2d.bindPopup(popup_335ba778d5b63b4a1c25fed663d1f6de)
+        ;
+
+        
+    
+    
+            var circle_marker_91c62e951fe5bd857eef9813bb491aa3 = L.circleMarker(
+                [51.625, -0.1947],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.326502984431727, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_c383bd40bed1b68a09b27d90ee7407c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee7d95ee152ef056f574054f0df8a909 = $(`<div id="html_ee7d95ee152ef056f574054f0df8a909" style="width: 100.0%; height: 100.0%;">Barnet: 212,191.0 incidents</div>`)[0];
+                popup_c383bd40bed1b68a09b27d90ee7407c0.setContent(html_ee7d95ee152ef056f574054f0df8a909);
+            
+        
+
+        circle_marker_91c62e951fe5bd857eef9813bb491aa3.bindPopup(popup_c383bd40bed1b68a09b27d90ee7407c0)
+        ;
+
+        
+    
+    
+            var circle_marker_894b44d9f51481fa9746da5967b6684b = L.circleMarker(
+                [51.4519, 0.1171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.016658315532231, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_d2e716004296b260c2099588eaffea1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61b24d73f7a51770b7b12e70d29fb0d6 = $(`<div id="html_61b24d73f7a51770b7b12e70d29fb0d6" style="width: 100.0%; height: 100.0%;">Bexley: 114,136.0 incidents</div>`)[0];
+                popup_d2e716004296b260c2099588eaffea1f.setContent(html_61b24d73f7a51770b7b12e70d29fb0d6);
+            
+        
+
+        circle_marker_894b44d9f51481fa9746da5967b6684b.bindPopup(popup_d2e716004296b260c2099588eaffea1f)
+        ;
+
+        
+    
+    
+            var circle_marker_13678a5049fff169161d4acc6c90ec91 = L.circleMarker(
+                [51.5588, -0.2817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.001626273548002, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_6547d575ccb69ab948c1922015dba3ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee7af63c69c0ce07da3cc6f9c4b2b16f = $(`<div id="html_ee7af63c69c0ce07da3cc6f9c4b2b16f" style="width: 100.0%; height: 100.0%;">Brent: 227,551.0 incidents</div>`)[0];
+                popup_6547d575ccb69ab948c1922015dba3ee.setContent(html_ee7af63c69c0ce07da3cc6f9c4b2b16f);
+            
+        
+
+        circle_marker_13678a5049fff169161d4acc6c90ec91.bindPopup(popup_6547d575ccb69ab948c1922015dba3ee)
+        ;
+
+        
+    
+    
+            var circle_marker_811c7d79839ea28e0ac218875a6fb2a0 = L.circleMarker(
+                [51.4085, 0.0188],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.10275411623021, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_1981f3f4b73ab4bd1903d2facccea9f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f889e2c98657463e4972854094bf12b7 = $(`<div id="html_f889e2c98657463e4972854094bf12b7" style="width: 100.0%; height: 100.0%;">Bromley: 184,349.0 incidents</div>`)[0];
+                popup_1981f3f4b73ab4bd1903d2facccea9f1.setContent(html_f889e2c98657463e4972854094bf12b7);
+            
+        
+
+        circle_marker_811c7d79839ea28e0ac218875a6fb2a0.bindPopup(popup_1981f3f4b73ab4bd1903d2facccea9f1)
+        ;
+
+        
+    
+    
+            var circle_marker_9b1f98f6b929220615c3b2d1811be9d5 = L.circleMarker(
+                [51.545, -0.1628],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.093629403025748, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_6385359b79091017f464953f54f7d893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fe29d7e4d8c89930526f3bb7e9a00da = $(`<div id="html_2fe29d7e4d8c89930526f3bb7e9a00da" style="width: 100.0%; height: 100.0%;">Camden: 275,147.0 incidents</div>`)[0];
+                popup_6385359b79091017f464953f54f7d893.setContent(html_2fe29d7e4d8c89930526f3bb7e9a00da);
+            
+        
+
+        circle_marker_9b1f98f6b929220615c3b2d1811be9d5.bindPopup(popup_6385359b79091017f464953f54f7d893)
+        ;
+
+        
+    
+    
+            var circle_marker_81afaa156255ce5578813cfebb3f971d = L.circleMarker(
+                [51.5155, -0.0922],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.034283604525436, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_3467054be3f6e437b29f55e8d4820fe8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73ec5b65e564d07d50e7f1e53f1cac36 = $(`<div id="html_73ec5b65e564d07d50e7f1e53f1cac36" style="width: 100.0%; height: 100.0%;">City of London: 780.0 incidents</div>`)[0];
+                popup_3467054be3f6e437b29f55e8d4820fe8.setContent(html_73ec5b65e564d07d50e7f1e53f1cac36);
+            
+        
+
+        circle_marker_81afaa156255ce5578813cfebb3f971d.bindPopup(popup_3467054be3f6e437b29f55e8d4820fe8)
+        ;
+
+        
+    
+    
+            var circle_marker_77bf5a37c4ac7bbb5c53804d55574216 = L.circleMarker(
+                [51.3726, -0.1004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.440790456851005, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_0a6f71f4bba7346a745321b5f8bd9d24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3a4e44d657eef57f487891c31de3bcc = $(`<div id="html_f3a4e44d657eef57f487891c31de3bcc" style="width: 100.0%; height: 100.0%;">Croydon: 260,294.0 incidents</div>`)[0];
+                popup_0a6f71f4bba7346a745321b5f8bd9d24.setContent(html_f3a4e44d657eef57f487891c31de3bcc);
+            
+        
+
+        circle_marker_77bf5a37c4ac7bbb5c53804d55574216.bindPopup(popup_0a6f71f4bba7346a745321b5f8bd9d24)
+        ;
+
+        
+    
+    
+            var circle_marker_234f7b31e25aed11ba7778dca55ea7c6 = L.circleMarker(
+                [51.513, -0.308],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.056989899522666, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_ade49604dcbab698f16ba2489f2896be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36fd37406b9d61b1e138313362f7637b = $(`<div id="html_36fd37406b9d61b1e138313362f7637b" style="width: 100.0%; height: 100.0%;">Ealing: 251,562.0 incidents</div>`)[0];
+                popup_ade49604dcbab698f16ba2489f2896be.setContent(html_36fd37406b9d61b1e138313362f7637b);
+            
+        
+
+        circle_marker_234f7b31e25aed11ba7778dca55ea7c6.bindPopup(popup_ade49604dcbab698f16ba2489f2896be)
+        ;
+
+        
+    
+    
+            var circle_marker_6822f7daee2de2f701944a459a8c82c7 = L.circleMarker(
+                [51.6538, -0.079],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.521673391527555, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_cfcf8cdcd9a25888068a53e4e9a3620e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49d2eab608e276a44866e47b1ebbca58 = $(`<div id="html_49d2eab608e276a44866e47b1ebbca58" style="width: 100.0%; height: 100.0%;">Enfield: 193,880.0 incidents</div>`)[0];
+                popup_cfcf8cdcd9a25888068a53e4e9a3620e.setContent(html_49d2eab608e276a44866e47b1ebbca58);
+            
+        
+
+        circle_marker_6822f7daee2de2f701944a459a8c82c7.bindPopup(popup_cfcf8cdcd9a25888068a53e4e9a3620e)
+        ;
+
+        
+    
+    
+            var circle_marker_3285cadab9256084e3a36b79f33a4da7 = L.circleMarker(
+                [51.4821, 0.0052],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.98051988009529, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_c0b09fd9374a347cfe72cc525a24d7d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c7e7f20970f258b0a0f466789d992ec = $(`<div id="html_6c7e7f20970f258b0a0f466789d992ec" style="width: 100.0%; height: 100.0%;">Greenwich: 181,568.0 incidents</div>`)[0];
+                popup_c0b09fd9374a347cfe72cc525a24d7d5.setContent(html_6c7e7f20970f258b0a0f466789d992ec);
+            
+        
+
+        circle_marker_3285cadab9256084e3a36b79f33a4da7.bindPopup(popup_c0b09fd9374a347cfe72cc525a24d7d5)
+        ;
+
+        
+    
+    
+            var circle_marker_323da91fc1c4e502179d4335f3775801 = L.circleMarker(
+                [51.545, -0.055],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.543105039689866, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_19f144773fec184994cd1c730f5a8477 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_decdbfab4b19405138f9a5be6256b180 = $(`<div id="html_decdbfab4b19405138f9a5be6256b180" style="width: 100.0%; height: 100.0%;">Hackney: 217,119.0 incidents</div>`)[0];
+                popup_19f144773fec184994cd1c730f5a8477.setContent(html_decdbfab4b19405138f9a5be6256b180);
+            
+        
+
+        circle_marker_323da91fc1c4e502179d4335f3775801.bindPopup(popup_19f144773fec184994cd1c730f5a8477)
+        ;
+
+        
+    
+    
+            var circle_marker_91a7b760050076c1787b05e024d2b041 = L.circleMarker(
+                [51.4927, -0.2339],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.142751654843218, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_b2335d062cf51cd95a8c5a0e61af442c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2804b68d1b1382c06c5627b3c224ce6 = $(`<div id="html_c2804b68d1b1382c06c5627b3c224ce6" style="width: 100.0%; height: 100.0%;">Hammersmith and Fulham: 185,259.0 incidents</div>`)[0];
+                popup_b2335d062cf51cd95a8c5a0e61af442c.setContent(html_c2804b68d1b1382c06c5627b3c224ce6);
+            
+        
+
+        circle_marker_91a7b760050076c1787b05e024d2b041.bindPopup(popup_b2335d062cf51cd95a8c5a0e61af442c)
+        ;
+
+        
+    
+    
+            var circle_marker_adf401f4352d1ab7dc8302d6ed90f2b7 = L.circleMarker(
+                [51.5908, -0.1097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.37401654403685, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_3d8f57f0222040d69b627af48543c12c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb239429f95eb522471fbcb0ced74614 = $(`<div id="html_bb239429f95eb522471fbcb0ced74614" style="width: 100.0%; height: 100.0%;">Haringey: 213,272.0 incidents</div>`)[0];
+                popup_3d8f57f0222040d69b627af48543c12c.setContent(html_bb239429f95eb522471fbcb0ced74614);
+            
+        
+
+        circle_marker_adf401f4352d1ab7dc8302d6ed90f2b7.bindPopup(popup_3d8f57f0222040d69b627af48543c12c)
+        ;
+
+        
+    
+    
+            var circle_marker_9085c80d6aa109f21153cf86e55fa38b = L.circleMarker(
+                [51.5806, -0.3417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.135859771266823, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_0af2bdcdf8418f072b0e5ec8885cfa41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3e1d026e2ed99f777cd2c51e1d738ed = $(`<div id="html_e3e1d026e2ed99f777cd2c51e1d738ed" style="width: 100.0%; height: 100.0%;">Harrow: 116,848.0 incidents</div>`)[0];
+                popup_0af2bdcdf8418f072b0e5ec8885cfa41.setContent(html_e3e1d026e2ed99f777cd2c51e1d738ed);
+            
+        
+
+        circle_marker_9085c80d6aa109f21153cf86e55fa38b.bindPopup(popup_0af2bdcdf8418f072b0e5ec8885cfa41)
+        ;
+
+        
+    
+    
+            var circle_marker_3aa1f1127f84c1764649c3dc5d15b9ee = L.circleMarker(
+                [51.5806, 0.183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.107184612815036, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_c39874afbd91b10c3fb810f264718a27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f5bf5be16da1969d22624d9ba8161f9 = $(`<div id="html_6f5bf5be16da1969d22624d9ba8161f9" style="width: 100.0%; height: 100.0%;">Havering: 138,947.0 incidents</div>`)[0];
+                popup_c39874afbd91b10c3fb810f264718a27.setContent(html_6f5bf5be16da1969d22624d9ba8161f9);
+            
+        
+
+        circle_marker_3aa1f1127f84c1764649c3dc5d15b9ee.bindPopup(popup_c39874afbd91b10c3fb810f264718a27)
+        ;
+
+        
+    
+    
+            var circle_marker_6770411d95455341dbab8495c42f1952 = L.circleMarker(
+                [51.5337, -0.4489],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.216136149863306, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_d885ee306cb6e60792220bd21d7d0c90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c79c58aea384635aef391a268377d67a = $(`<div id="html_c79c58aea384635aef391a268377d67a" style="width: 100.0%; height: 100.0%;">Hillingdon: 209,680.0 incidents</div>`)[0];
+                popup_d885ee306cb6e60792220bd21d7d0c90.setContent(html_c79c58aea384635aef391a268377d67a);
+            
+        
+
+        circle_marker_6770411d95455341dbab8495c42f1952.bindPopup(popup_d885ee306cb6e60792220bd21d7d0c90)
+        ;
+
+        
+    
+    
+            var circle_marker_f925b010578b764a3bbc7c56697414fd = L.circleMarker(
+                [51.4667, -0.3617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.209253056954736, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_2e6b150ac9a173e56ed879139aa32e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecc02bd2a20b479131f3f93f7211677a = $(`<div id="html_ecc02bd2a20b479131f3f93f7211677a" style="width: 100.0%; height: 100.0%;">Hounslow: 186,772.0 incidents</div>`)[0];
+                popup_2e6b150ac9a173e56ed879139aa32e6a.setContent(html_ecc02bd2a20b479131f3f93f7211677a);
+            
+        
+
+        circle_marker_f925b010578b764a3bbc7c56697414fd.bindPopup(popup_2e6b150ac9a173e56ed879139aa32e6a)
+        ;
+
+        
+    
+    
+            var circle_marker_963bc8e21337b65c5a6eea7e170886c3 = L.circleMarker(
+                [51.538, -0.102],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.121838656082701, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_614df0f3dae534a20cbc9cc14a91c6e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_244723ec10a40d9c76e5dea377ea7130 = $(`<div id="html_244723ec10a40d9c76e5dea377ea7130" style="width: 100.0%; height: 100.0%;">Islington: 230,286.0 incidents</div>`)[0];
+                popup_614df0f3dae534a20cbc9cc14a91c6e4.setContent(html_244723ec10a40d9c76e5dea377ea7130);
+            
+        
+
+        circle_marker_963bc8e21337b65c5a6eea7e170886c3.bindPopup(popup_614df0f3dae534a20cbc9cc14a91c6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_a67d94ab3eeb980b2e223aa530db76f2 = L.circleMarker(
+                [51.4941, -0.1909],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.559139217806376, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_b1cb76a69d47502aae2f465166a207b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61546cff19c7ad980b5ef1b6a5107247 = $(`<div id="html_61546cff19c7ad980b5ef1b6a5107247" style="width: 100.0%; height: 100.0%;">Kensington and Chelsea: 171,981.0 incidents</div>`)[0];
+                popup_b1cb76a69d47502aae2f465166a207b3.setContent(html_61546cff19c7ad980b5ef1b6a5107247);
+            
+        
+
+        circle_marker_a67d94ab3eeb980b2e223aa530db76f2.bindPopup(popup_b1cb76a69d47502aae2f465166a207b3)
+        ;
+
+        
+    
+    
+            var circle_marker_a536bf81b398bc93a24c9fae77993631 = L.circleMarker(
+                [51.4098, -0.306],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.925296904805858, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_a9671f2902ed7959e4efcf5cb4fc4602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a2e7a022ca553bee738d3784101f46b = $(`<div id="html_6a2e7a022ca553bee738d3784101f46b" style="width: 100.0%; height: 100.0%;">Kingston upon Thames: 89,306.0 incidents</div>`)[0];
+                popup_a9671f2902ed7959e4efcf5cb4fc4602.setContent(html_6a2e7a022ca553bee738d3784101f46b);
+            
+        
+
+        circle_marker_a536bf81b398bc93a24c9fae77993631.bindPopup(popup_a9671f2902ed7959e4efcf5cb4fc4602)
+        ;
+
+        
+    
+    
+            var circle_marker_d4557b20e047810404be555e9be02909 = L.circleMarker(
+                [51.46, -0.1167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.842198721836898, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_f78f054576591485bf9cae939119f092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_343fc80250ef28704934b5aff91d9397 = $(`<div id="html_343fc80250ef28704934b5aff91d9397" style="width: 100.0%; height: 100.0%;">Lambeth: 292,178.0 incidents</div>`)[0];
+                popup_f78f054576591485bf9cae939119f092.setContent(html_343fc80250ef28704934b5aff91d9397);
+            
+        
+
+        circle_marker_d4557b20e047810404be555e9be02909.bindPopup(popup_f78f054576591485bf9cae939119f092)
+        ;
+
+        
+    
+    
+            var circle_marker_8a6542168cb16fe4d15b1a34123030aa = L.circleMarker(
+                [51.4452, -0.0209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.45598952152395, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_c5d5f10e133e1dd067b29f52ddc80f08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b841e51bd5b28676929770ebeb935deb = $(`<div id="html_b841e51bd5b28676929770ebeb935deb" style="width: 100.0%; height: 100.0%;">Lewisham: 215,137.0 incidents</div>`)[0];
+                popup_c5d5f10e133e1dd067b29f52ddc80f08.setContent(html_b841e51bd5b28676929770ebeb935deb);
+            
+        
+
+        circle_marker_8a6542168cb16fe4d15b1a34123030aa.bindPopup(popup_c5d5f10e133e1dd067b29f52ddc80f08)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbc357a613beb3912b827623eb1e4de = L.circleMarker(
+                [51.4098, -0.2106],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.083379484339424, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_b04fc4a0cd462e954533620fe578cca6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d6c91d101a38649fee2559e76662af6 = $(`<div id="html_1d6c91d101a38649fee2559e76662af6" style="width: 100.0%; height: 100.0%;">Merton: 115,654.0 incidents</div>`)[0];
+                popup_b04fc4a0cd462e954533620fe578cca6.setContent(html_1d6c91d101a38649fee2559e76662af6);
+            
+        
+
+        circle_marker_bbbc357a613beb3912b827623eb1e4de.bindPopup(popup_b04fc4a0cd462e954533620fe578cca6)
+        ;
+
+        
+    
+    
+            var circle_marker_86eefc96acc8ca3a41e878123f4066a6 = L.circleMarker(
+                [51.5255, 0.0352],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.516829733554857, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_6b2fdeb53a72c2b75d65fb3fa208eebd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56205fdc6470f37624099ec3e8fde853 = $(`<div id="html_56205fdc6470f37624099ec3e8fde853" style="width: 100.0%; height: 100.0%;">Newham: 262,024.0 incidents</div>`)[0];
+                popup_6b2fdeb53a72c2b75d65fb3fa208eebd.setContent(html_56205fdc6470f37624099ec3e8fde853);
+            
+        
+
+        circle_marker_86eefc96acc8ca3a41e878123f4066a6.bindPopup(popup_6b2fdeb53a72c2b75d65fb3fa208eebd)
+        ;
+
+        
+    
+    
+            var circle_marker_21e118e8c3f3f9aa28251577528e1868 = L.circleMarker(
+                [51.5886, 0.0824],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.068162838330828, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_d3b1726c59d929b651ee95df3cb5e912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6834193e75a6bf38c46fb975303c0861 = $(`<div id="html_6834193e75a6bf38c46fb975303c0861" style="width: 100.0%; height: 100.0%;">Redbridge: 183,562.0 incidents</div>`)[0];
+                popup_d3b1726c59d929b651ee95df3cb5e912.setContent(html_6834193e75a6bf38c46fb975303c0861);
+            
+        
+
+        circle_marker_21e118e8c3f3f9aa28251577528e1868.bindPopup(popup_d3b1726c59d929b651ee95df3cb5e912)
+        ;
+
+        
+    
+    
+            var circle_marker_a16f33c62604faa6200dcb4c242f395c = L.circleMarker(
+                [51.4479, -0.326],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.253408581449932, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_0cd4129d7ee0855164e86261123fbb3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a955d23485348f1d464674893286cd2 = $(`<div id="html_7a955d23485348f1d464674893286cd2" style="width: 100.0%; height: 100.0%;">Richmond upon Thames: 96,771.0 incidents</div>`)[0];
+                popup_0cd4129d7ee0855164e86261123fbb3b.setContent(html_7a955d23485348f1d464674893286cd2);
+            
+        
+
+        circle_marker_a16f33c62604faa6200dcb4c242f395c.bindPopup(popup_0cd4129d7ee0855164e86261123fbb3b)
+        ;
+
+        
+    
+    
+            var circle_marker_181fd3c4c5f0cd3626346ac8e79b403f = L.circleMarker(
+                [51.5035, -0.0804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.254586530938756, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_e12fd2fe2b47b5d85764b2895251b127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca6b6142be5f72ab756d066267bf09a3 = $(`<div id="html_ca6b6142be5f72ab756d066267bf09a3" style="width: 100.0%; height: 100.0%;">Southwark: 278,809.0 incidents</div>`)[0];
+                popup_e12fd2fe2b47b5d85764b2895251b127.setContent(html_ca6b6142be5f72ab756d066267bf09a3);
+            
+        
+
+        circle_marker_181fd3c4c5f0cd3626346ac8e79b403f.bindPopup(popup_e12fd2fe2b47b5d85764b2895251b127)
+        ;
+
+        
+    
+    
+            var circle_marker_f4b92cd73fd095ae1e54a197d3c3a68d = L.circleMarker(
+                [51.3618, -0.1945],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.438715859243827, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_d41a11f93ce0b077bf5a7e2eea9eef40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19ac38dfe31f65c5b70d6cc962a0a95e = $(`<div id="html_19ac38dfe31f65c5b70d6cc962a0a95e" style="width: 100.0%; height: 100.0%;">Sutton: 100,987.0 incidents</div>`)[0];
+                popup_d41a11f93ce0b077bf5a7e2eea9eef40.setContent(html_19ac38dfe31f65c5b70d6cc962a0a95e);
+            
+        
+
+        circle_marker_f4b92cd73fd095ae1e54a197d3c3a68d.bindPopup(popup_d41a11f93ce0b077bf5a7e2eea9eef40)
+        ;
+
+        
+    
+    
+            var circle_marker_23f46e9abad01798f00246895dc59e52 = L.circleMarker(
+                [51.5156, -0.0417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.048304719709556, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_22d4c127c9c7f8da62c69e62e90f5967 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e540a53b48ea6ca99b10bf6ad8a1253d = $(`<div id="html_e540a53b48ea6ca99b10bf6ad8a1253d" style="width: 100.0%; height: 100.0%;">Tower Hamlets: 228,613.0 incidents</div>`)[0];
+                popup_22d4c127c9c7f8da62c69e62e90f5967.setContent(html_e540a53b48ea6ca99b10bf6ad8a1253d);
+            
+        
+
+        circle_marker_23f46e9abad01798f00246895dc59e52.bindPopup(popup_22d4c127c9c7f8da62c69e62e90f5967)
+        ;
+
+        
+    
+    
+            var circle_marker_97dd2f92dc4d80555262c9af963981d8 = L.circleMarker(
+                [51.5908, -0.018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.96116282954016, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_ad85da3c2022b8beda96351b24c437b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71b92bed155667c61bb12f0968dec019 = $(`<div id="html_71b92bed155667c61bb12f0968dec019" style="width: 100.0%; height: 100.0%;">Waltham Forest: 203,879.0 incidents</div>`)[0];
+                popup_ad85da3c2022b8beda96351b24c437b9.setContent(html_71b92bed155667c61bb12f0968dec019);
+            
+        
+
+        circle_marker_97dd2f92dc4d80555262c9af963981d8.bindPopup(popup_ad85da3c2022b8beda96351b24c437b9)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb7f58293d34313c188efc521d1bc18 = L.circleMarker(
+                [51.457, -0.191],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.99905060787468, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_8daf2f57b21782af094a0c304f1e489f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b2df45d5ffd75e635e8fb505f8adafb = $(`<div id="html_9b2df45d5ffd75e635e8fb505f8adafb" style="width: 100.0%; height: 100.0%;">Wandsworth: 204,741.0 incidents</div>`)[0];
+                popup_8daf2f57b21782af094a0c304f1e489f.setContent(html_9b2df45d5ffd75e635e8fb505f8adafb);
+            
+        
+
+        circle_marker_5bb7f58293d34313c188efc521d1bc18.bindPopup(popup_8daf2f57b21782af094a0c304f1e489f)
+        ;
+
+        
+    
+    
+            var circle_marker_6a77142bd2d5ea9bb1dbf4a599453c25 = L.circleMarker(
+                [51.4975, -0.137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.0, "stroke": true, "weight": 3}
+            ).addTo(map_59931884b54ecd92e2386cb91a00a46b);
+        
+    
+        var popup_7e0fc5092f3ae2f4a69c9672eb99435d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7096189c1e41ac950de8be92c5b1c07d = $(`<div id="html_7096189c1e41ac950de8be92c5b1c07d" style="width: 100.0%; height: 100.0%;">Westminster: 455,028.0 incidents</div>`)[0];
+                popup_7e0fc5092f3ae2f4a69c9672eb99435d.setContent(html_7096189c1e41ac950de8be92c5b1c07d);
+            
+        
+
+        circle_marker_6a77142bd2d5ea9bb1dbf4a599453c25.bindPopup(popup_7e0fc5092f3ae2f4a69c9672eb99435d)
+        ;
+
+        
+    
+</script>
+</html>
